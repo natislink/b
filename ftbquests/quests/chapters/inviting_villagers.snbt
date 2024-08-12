@@ -1,0 +1,1004 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "inviting_villagers"
+	group: ""
+	icon: "candlelight:letter_open"
+	id: "73F1D6D63898CE24"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["67410832B3588F76"]
+			description: [
+				"Place down the following blocks to help Jess move in!"
+				""
+				"Also remember to put down Jess's Shop block, she won't be able to sell you decorations otherwise!"
+				""
+				"While you are at it, also feel free to build a room or house for Jess!  Make sure you include a bed so she can have a good place to rest!"
+				""
+				"-----"
+				"Jess the Beaver is the entrepreneurial beaver who sold you the Adventurer's Settlement package and invited you to this new land.  She’s offering to sell you a wide range of furniture, hats, and decorations if you can find a place for her to set up shop."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "moa_decor_cookery:cafetera"
+			id: "756B6CAC42F98D92"
+			rewards: [
+				{
+					command: "/function fc_villagers:jess"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "candlelight:letter_open"
+					id: "547B8095C7E2C77E"
+					silent: true
+					title: "Invite Jess"
+					type: "command"
+				}
+				{
+					id: "345A653767E44FC6"
+					item: "non_wandering_trader:travellers_table"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "moa_decor_cookery:cafetera"
+					block_type: 0
+					id: "158E9D8AEAA1F28B"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "meadow:camera"
+					block_type: 0
+					id: "23A1030378C91ABF"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:soportetazas"
+					block_type: 0
+					id: "7E603FF363034421"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:donas"
+					block_type: 0
+					id: "2736688F37DF2020"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:fideos"
+					block_type: 0
+					id: "221FB86D770C0C8A"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Jess open up her shop"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3AB5ADA435969636"]
+			description: [
+				"Place down the following blocks to help Pamela move in!"
+				""
+				"While you are at it, also feel free to build a room or house for Pamela!  Make sure you include a bed so she can have a good place to rest!"
+				""
+				"-----"
+				"Pamela the Rabbit is a hobbyist gardener and head chef of the Carrot Place, an award winning restaurant. She’s excited to help you cook the finest dishes for your fellow villagers."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "moa_decor_cookery:bandejadegalletas"
+			id: "0D03125982F6A791"
+			rewards: [{
+				command: "/function fc_villagers:pamela"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "candlelight:letter_open"
+				id: "6A2B384A44097BBC"
+				silent: true
+				title: "Invite Pamela"
+				type: "command"
+			}]
+			tasks: [
+				{
+					block: "moa_decor_cookery:paydemanzana"
+					block_type: 0
+					id: "738D50E556996FA1"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:bandejadegalletas"
+					block_type: 0
+					id: "45098FCD92909966"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:waffles"
+					block_type: 0
+					id: "5CAED03420BA0559"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:soporteinstrumentos"
+					block_type: 0
+					id: "798A9010D4790528"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:soportedelantal"
+					block_type: 0
+					id: "789E5461428A3B0C"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Pamela Move In"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25D1522C49398031"]
+			description: [
+				"Place down the following blocks to help Laly move in!"
+				""
+				"While you are at it, also feel free to build a room or house for Laly!  Make sure you include a bed so she can have a good place to rest!"
+				""
+				"-----"
+				"Laly the Meerkat is a geologist who loves caving, and a curator of a local museum’s gems and minerals exhibit. She will buy gems and ores for her museum’s collection."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+				""
+				"-----"
+				""
+				"The tetapot can be made with a water bottle or any kind of potion"
+			]
+			hide: true
+			icon: "minecraft:amethyst_block"
+			id: "32315F192BEB4876"
+			rewards: [{
+				command: "/function fc_villagers:laly"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "candlelight:letter_open"
+				id: "257E2FE8EA2F864F"
+				silent: true
+				title: "Invite Laly"
+				type: "command"
+			}]
+			tasks: [
+				{
+					block: "minecraft:amethyst_block"
+					block_type: 0
+					id: "4DB56FD820824D18"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "minecraft:raw_iron_block"
+					block_type: 0
+					id: "75BBFE19631D718F"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "minecraft:raw_copper_block"
+					block_type: 0
+					id: "18051C96D1576E54"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "minecraft:raw_gold_block"
+					block_type: 0
+					id: "3FE93B4E636840B3"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:tetera"
+					block_type: 0
+					id: "0CAAF9056F623305"
+					replace: false
+					replaced: "minecraft:air"
+					title: "Place a Tetapot (Can be crafted with a water bottle or any potions)"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Laly Move In"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0261908781297A1E"]
+			description: [
+				"Place down the following blocks to help Sam move in!"
+				""
+				"While you are at it, also feel free to build a room or house for Sam!  Make sure you include a bed so he can have a good place to rest!"
+				""
+				"-----"
+				"Sam the Osprey is an elite sushi chef and obsessive fisherman. He will buy fish from you and sell expertly prepared sushi"
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "moa_decor_cookery:sushi"
+			id: "24D59BF6E757524F"
+			rewards: [{
+				command: "/function fc_villagers:sam"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "candlelight:letter_open"
+				id: "1872EA24DA577DD8"
+				silent: true
+				title: "Invite Sam"
+				type: "command"
+			}]
+			tasks: [
+				{
+					block: "aquaculture:neptunes_bounty"
+					block_type: 0
+					id: "24B5FD7AC603BCE7"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "aquaculture:tackle_box"
+					block_type: 0
+					id: "7CD399AA37C29DD8"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "aquaculture:worm_farm"
+					block_type: 0
+					id: "124CA2536C027FA8"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:langosta"
+					block_type: 0
+					id: "52A517C059AB816E"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:sushi"
+					block_type: 0
+					id: "5E3246CB794C9542"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Sam Move In"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5A43CA6B86349E67"]
+			description: [
+				"Place down the following blocks to help Yukkie move in!"
+				""
+				"While you are at it, also feel free to build a room or house for Yukkie!  Make sure you include a bed so she can have a good place to rest!"
+				""
+				"-----"
+				"Yukkie the Bat is a free-spirited adventurer who loves fruits. She will happily trade mob drops for fruits."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "moa_decor_cookery:manzanacortada"
+			id: "78BB8E151802329C"
+			rewards: [{
+				command: "/function fc_villagers:yukkie"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "candlelight:letter_open"
+				id: "6F6426285E188555"
+				silent: true
+				title: "Invite Yukkie"
+				type: "command"
+			}]
+			tasks: [
+				{
+					block: "moa_decor_cookery:manzanacortada"
+					block_type: 0
+					id: "25D1A9ADBF7DD9B8"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:manzanadorada"
+					block_type: 0
+					id: "3B432007FFBEB46B"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:barrilmanzana"
+					block_type: 0
+					id: "2CBD3959F5227A3B"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "vinery:cherry_lattice"
+					block_type: 0
+					id: "7EF7DBBA47D0AED7"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_garden_:cerezo"
+					block_type: 0
+					id: "56A181D9902DD319"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Yukkie Move In"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DF5D0F9221BE1A8"]
+			description: [
+				"Place down the following blocks to help Andre move in!"
+				""
+				"While you are at it, also feel free to build a room or house for Andre!  Make sure you include a bed so he can have a good place to rest!"
+				""
+				"-----"
+				"Andre the Dog is a retired farmhand who loves to raise and train animals. He’s happy to supply you with a variety of tools to help on your quest to find and take care of animals."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "moa_decor_garden_:comedero_trigo"
+			id: "1B8E82ADB3063C94"
+			rewards: [{
+				command: "/function fc_villagers:andre"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "candlelight:letter_open"
+				id: "451452EE072C1370"
+				silent: true
+				title: "Invite Andre"
+				type: "command"
+			}]
+			tasks: [
+				{
+					block: "moa_decor_garden_:casa_p_roble"
+					block_type: 0
+					id: "48EC18A1223748CF"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_garden_:comedero_trigo"
+					block_type: 0
+					id: "3898C294FBCAAA35"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_garden_:nidoconhuevos"
+					block_type: 0
+					id: "24488CC70C12A7F0"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:queso"
+					block_type: 0
+					id: "1DB067E87C81BE78"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:botelladeleche"
+					block_type: 0
+					id: "25C4F060EEEF42CA"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Andre Move In"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7CE7B5249150EEC7"]
+			description: [
+				"Place down the following blocks to help Ren move in!"
+				""
+				"While you are at it, also feel free to build a room or house for Ren!  Make sure you include a bed so he can have a good place to rest!"
+				""
+				"You can help other villagers move in as well by completing collection achievements!"
+				""
+				"-----"
+				"Ren the Woodpecker is a diligent forester and carpenter.  He will supply you with materials and tools for your building needs."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "corail_woodcutter:oak_woodcutter"
+			id: "468E43123E8DB4F9"
+			rewards: [{
+				command: "/function fc_villagers:ren"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				icon: "candlelight:letter_open"
+				id: "2F7661F2751311FE"
+				silent: true
+				title: "Invite Ren"
+				type: "command"
+			}]
+			tasks: [
+				{
+					block: "corail_woodcutter:oak_woodcutter"
+					block_type: 0
+					id: "6837B4022080DE23"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_garden_:hachaclavada"
+					block_type: 0
+					id: "4CCA99328D5531F9"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:salypimienta"
+					block_type: 0
+					id: "5EADC05A4D5671E7"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:latadeatun"
+					block_type: 0
+					id: "187549AA9AF42A89"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_cookery:tostador"
+					block_type: 0
+					id: "4C11BE3EEE583516"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Ren Move In"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["67410832B3588F76"]
+			description: ["Use this checkpoint quest to help locate Jess!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "72A8820CE32DF938"
+			rewards: [{
+				command: "/function fc_villagers:jess_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "0319AD50864A791D"
+				silent: true
+				title: "Highlight Jess for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0011E1FD08B337C3"
+				title: "Help Locating Jess"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0DF5D0F9221BE1A8"]
+			description: ["Use this checkpoint quest to help locate Andre!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "512BADF33A088EBA"
+			rewards: [{
+				command: "/function fc_villagers:andre_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "0EDEB814B1EE2B5C"
+				silent: true
+				title: "Highlight Andre for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "439E84B1C4FF325D"
+				title: "Help Locating Andre"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["25D1522C49398031"]
+			description: ["Use this checkpoint quest to help locate Laly!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "411A015BA96920ED"
+			rewards: [{
+				command: "/function fc_villagers:laly_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "6EF660D9CBDFE771"
+				silent: true
+				title: "Highlight Laly for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "63AC2DD645511D7F"
+				title: "Help Locating Laly"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3AB5ADA435969636"]
+			description: ["Use this checkpoint quest to help locate Pamela!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "0AC907ED825810E1"
+			rewards: [{
+				command: "/function fc_villagers:pamela_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "2B45C52637D9F49E"
+				silent: true
+				title: "Highlight Pamela for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6D2BCA8FC524C6F2"
+				title: "Help Locating Pamela"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7CE7B5249150EEC7"]
+			description: ["Use this checkpoint quest to help locate Ren!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "767DD13CDF3F90D1"
+			rewards: [{
+				command: "/function fc_villagers:ren_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "525C1E20E25B3B56"
+				silent: true
+				title: "Highlight Ren for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "54153C1DA1F24036"
+				title: "Help Locating Ren"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0261908781297A1E"]
+			description: ["Use this checkpoint quest to help locate Sam!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "3FC799C7A2A8C9ED"
+			rewards: [{
+				command: "/function fc_villagers:sam_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "5F367A1FF3C0B858"
+				silent: true
+				title: "Highlight Sam for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6F54905F27C40AE6"
+				title: "Help Locating Sam"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5A43CA6B86349E67"]
+			description: ["Use this checkpoint quest to help locate Yukkie!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "642BFEA807DA5610"
+			rewards: [{
+				command: "/function fc_villagers:yukkie_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "7597F07ED15F2F0F"
+				silent: true
+				title: "Highlight Yukkie for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "70939025535B1954"
+				title: "Help Locating Yukkie"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["63B3DEB3D6738664"]
+			description: [
+				"Place down the following blocks to help Bernina move in!"
+				""
+				"Also remember to put down Bernina's Shop block, she won't be able to sell you decorations otherwise!"
+				""
+				"While you are at it, also feel free to build a room or house for Bernina!  Make sure you include a bed so she can have a good place to rest!"
+				""
+				"-----"
+				"Bernina the Shrew is a talented seamstress and hat maker who loves designing new fashion accessories to share with the world.  She will sell you a variety of hats and accessories you can wear on your head."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "moa_decor_bath:c_tmagentas"
+			id: "08BD5EF1DC4E8167"
+			rewards: [
+				{
+					command: "/function fc_villagers:bernina"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "candlelight:letter_open"
+					id: "63081D7404E76A23"
+					silent: true
+					title: "Invite Bernina"
+					type: "command"
+				}
+				{
+					id: "611B09CC1311146F"
+					item: "kubejs:berninas_shop"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "moa_decor_bath:c_tmagentas"
+					block_type: 0
+					id: "018DFABC63B2058A"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_bath:c_trosas"
+					block_type: 0
+					id: "56A02D5C90BA821F"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_bath:toallascafes"
+					block_type: 0
+					id: "0DA291AE865056E2"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_bath:esp_d"
+					block_type: 0
+					id: "6A76F84565644949"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "chipped:loom_table"
+					block_type: 0
+					id: "73EDB666CF744394"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Bernina open up her shop"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["63B3DEB3D6738664"]
+			description: ["Use this checkpoint quest to help locate Bernina!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "52D27F0D078EB60E"
+			rewards: [{
+				command: "/function fc_villagers:bernina_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "7C1103600EC43DA4"
+				silent: true
+				title: "Highlight Bernina for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "33BF610565EB895C"
+				title: "Help Locating Bernina"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["41A76FF5B0823642"]
+			description: [
+				"Place down the following blocks to help Elna move in!"
+				""
+				"Also remember to put down Elna's Shop block, she won't be able to sell you decorations otherwise!"
+				""
+				"While you are at it, also feel free to build a room or house for Elna!  Make sure you include a bed so she can have a good place to rest!"
+				""
+				"-----"
+				"Elna the Shrew is an up and coming fashion designer starting her own clothing brand. Her older sister, Bernina, helps Elna source only the highest quality fabrics and materials to make the tasteful clothes that Elna envisions.  Elna will sell you a variety of clothing items and decorative armor for your wardrobe."
+				"-----"
+				""
+				"(This is a repeatable quest. In the event that this villager goes missing, you can resummon this villager by completing this quest again)"
+			]
+			hide: true
+			icon: "moa_decor_bath:c_tblancas"
+			id: "29DA88DDFAC79F20"
+			rewards: [
+				{
+					command: "/function fc_villagers:elna"
+					elevate_perms: true
+					exclude_from_claim_all: true
+					icon: "candlelight:letter_open"
+					id: "3E918E1CB9DBE94D"
+					silent: true
+					title: "Invite Elna"
+					type: "command"
+				}
+				{
+					id: "068CB9BC5E4E1BC0"
+					item: "kubejs:elnas_shop"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					block: "moa_decor_bath:c_tblancas"
+					block_type: 0
+					id: "5F6613FE8714ECC5"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_bath:c_tgrises"
+					block_type: 0
+					id: "227472375D931954"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_bath:toallaszulesclaras"
+					block_type: 0
+					id: "13F12141D2CFDA98"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "moa_decor_bath:esp_n"
+					block_type: 0
+					id: "7F61E401F782F32B"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+				{
+					block: "chipped:loom_table"
+					block_type: 0
+					id: "0DC2C27E454BD62B"
+					replace: false
+					replaced: "minecraft:air"
+					type: "questsadditions:place"
+					value: 1L
+				}
+			]
+			title: "Help Elna open up her shop"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7A541B9B0899FD02"]
+			description: ["Use this checkpoint quest to help locate Elna!"]
+			hide: true
+			icon: "moa_decor_science:lupa"
+			id: "23E15AD0DC4B11BD"
+			rewards: [{
+				command: "/function fc_villagers:elna_highlight"
+				elevate_perms: true
+				exclude_from_claim_all: true
+				id: "0B9D513680D2A24A"
+				silent: true
+				title: "Highlight Elna for 30 seconds"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5AFA2DCD937B642A"
+				title: "Help Locating Elna"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"78BB8E151802329C"
+				"29DA88DDFAC79F20"
+				"1B8E82ADB3063C94"
+				"32315F192BEB4876"
+				"08BD5EF1DC4E8167"
+				"468E43123E8DB4F9"
+				"24D59BF6E757524F"
+				"756B6CAC42F98D92"
+				"0D03125982F6A791"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"When Farming Crossing villagers are first summoned in they do not have their seasonal trades yet."
+				""
+				"So for the first time, you can right click with a serene season calendar to set the villager's seasonal trades."
+				""
+				"After that, their trades will be updated everytime you log in and everytime the season changes."
+			]
+			icon: "sereneseasons:calendar"
+			id: "502AD3CA26C03C4C"
+			rewards: [{
+				id: "7C9F01467C366C5B"
+				item: "sereneseasons:calendar"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "minecraft:glass"
+				id: "434869CDA5A3DDFF"
+				stat: "minecraft:walk_one_cm"
+				title: "Free Task"
+				type: "stat"
+				value: 1
+			}]
+			title: "Update Villager Trades"
+			x: -4.0d
+			y: 1.0d
+		}
+	]
+	title: "Inviting Villagers"
+}

@@ -1,0 +1,29 @@
+{
+    "ModSettings": {
+        "highlight_foused_items": {
+            "value": false
+        },
+        "first_run": false
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false
+    },
+    "AutoRefillSettings": {
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        }
+    },
+    "ScrollSettings": {
+        "scroll_auto_pickup_next_for_single": false
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "keys": "PAGE_UP"
+            }
+        }
+    }
+}

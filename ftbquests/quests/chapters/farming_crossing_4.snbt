@@ -1,0 +1,2523 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "farming_crossing_4"
+	group: ""
+	icon: "minecraft:peony"
+	id: "4362A64FA38E4BCF"
+	images: [{
+		click: "https://forms.gle/zuuGPAcGz1w56ASg8"
+		corner: false
+		dependency: "7A56756EC54FA48D"
+		dev: false
+		height: 1.0d
+		hover: ["Submit Food Mechanic Classification Suggestion"]
+		image: "minecraft:item/luck_of_the_sea2"
+		rotation: 0.0d
+		width: 1.0d
+		x: 4.5d
+		y: -2.5d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["57BAA8B414FF1F4F"]
+			hide: true
+			id: "13B67DDBCF1019AB"
+			rewards: [
+				{
+					count: 4
+					id: "4078B5EDD65D0ADC"
+					item: "bakery:strawberry_seeds"
+					type: "item"
+				}
+				{
+					id: "1A0D9D85B3BA6BA8"
+					item: {
+						Count: 1b
+						id: "bakery:small_cooking_pot"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5885ECEC254B19A7"
+					item: "candlelight:stone_bricks_stove"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7665EF8315464D09"
+				item: "bakery:bread"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: ["After you have cooked enough unique dishes, you will be able to redeem some Miles Tickets from the Miles Reward Program chapter."]
+			hide: true
+			icon: "minecraft:wheat_seeds"
+			id: "57BAA8B414FF1F4F"
+			rewards: [
+				{
+					id: "2CE73FEA7A081DBA"
+					item: "bakery:brick_stove"
+					type: "item"
+				}
+				{
+					id: "17E9910D0E9D1E51"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "79707C591C03C8B7"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "6268711265E34812"
+					item: "cookingforblockheads:sink"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3BE140032757C3C5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:seeds"
+					}
+				}
+				title: "Any #forge:seeds"
+				type: "item"
+			}]
+			title: "A Cook's Humble Beginnings"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13B67DDBCF1019AB"]
+			hide: true
+			id: "5E93B9E15372F454"
+			rewards: [
+				{
+					id: "03A3DEA08A4CCE81"
+					item: "bakery:baker_station"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2A7CFFF1558B6680"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "00BB4FE6308A4E0A"
+				item: "bakery:strawberry_jam"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E93B9E15372F454"]
+			description: [
+				"Right click the caking station while holding a cake dough. After that you can do different interactions with the cake dough: "
+				""
+				"Knife -> Cutting -> Use Jam on it -> Make Cupcakes "
+				"Knife -> Rolling Pin -> Use Jam on it -> Make Cookies "
+				"Using Jam on it -> Make a cake"
+			]
+			hide: true
+			icon: "bakery:strawberry_cake"
+			id: "45CAACDFDC15E734"
+			rewards: [
+				{
+					count: 4
+					id: "5CD0C8EBB0F754F2"
+					item: "vinery:red_grape_seeds"
+					type: "item"
+				}
+				{
+					id: "5B86CA2C66DB8CC6"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3AB93F30CDA1780F"
+					item: "bakery:strawberry_cake"
+					type: "item"
+				}
+				{
+					id: "2A4512658A74CF04"
+					item: "bakery:strawberry_glazed_cookie"
+					type: "item"
+				}
+				{
+					id: "39D12A3D58AC6C98"
+					item: "bakery:strawberry_cupcake"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45CAACDFDC15E734"]
+			description: ["You can put grapes into a Pot and crush them by jumping and walking around in it. Then you can extract Grapejuice by using Empty Winebottles. "]
+			hide: true
+			id: "17FA2E4902522B36"
+			rewards: [
+				{
+					id: "15D58709E458F96D"
+					item: "vinery:apple_press"
+					type: "item"
+				}
+				{
+					id: "32F5FC1BC372308E"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2F61AC55C156BC7E"
+					item: "vinery:cherry_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EE4218974AEFC22"
+				item: "vinery:red_grapejuice_wine_bottle"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17FA2E4902522B36"]
+			hide: true
+			id: "65B28F78A7DDBD06"
+			rewards: [
+				{
+					id: "3FEBF62C7E29D07E"
+					item: "meadow:cheese_form"
+					type: "item"
+				}
+				{
+					id: "502046B1D6BFBB14"
+					item: {
+						Count: 1b
+						id: "bakery:bread_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7DB30F0AF7938D6B"
+					item: "meadow:frame"
+					type: "item"
+				}
+				{
+					id: "1FA5C4310477D3ED"
+					item: "meadow:cooking_pot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "26BF9B92167974E8"
+				item: {
+					Count: 1b
+					id: "vinery:cherry_wine"
+					tag: {
+						Year: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65B28F78A7DDBD06"]
+			hide: true
+			id: "1DD15BDBBA7B8632"
+			rewards: [{
+				id: "2C8257A7E048B971"
+				item: "meadow:fondue"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E220D0191BE7CCF"
+				item: "meadow:cheese_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1DD15BDBBA7B8632"]
+			hide: true
+			id: "57889789985B323E"
+			rewards: [
+				{
+					id: "328DE0F8C4ED7A60"
+					item: "candlelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "68642B19F3E32B03"
+					item: "candlelight:stone_bricks_stove"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "03A64188A780FFD2"
+				item: "meadow:cheese_stick"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["57889789985B323E"]
+			hide: true
+			id: "48C7E0AF4C9A3C3E"
+			rewards: [
+				{
+					id: "589AC45391104EC3"
+					item: {
+						Count: 1b
+						id: "candlelight:cooking_pan"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "347EE055BDC513B9"
+					item: "candlelight:stone_bricks_stove"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46B1BC80C70D75EF"
+				item: "candlelight:mushroom_soup"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48C7E0AF4C9A3C3E"]
+			hide: true
+			id: "56C6F1D87FA09C24"
+			rewards: [
+				{
+					id: "054EAA79164DFA6B"
+					item: "beachparty:mini_fridge"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "44BFC6BBF6768C86"
+					item: "beachparty:palm_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "65F6A37A21F9D8A9"
+				item: "candlelight:pancake"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["56C6F1D87FA09C24"]
+			hide: true
+			id: "2D0063702FDE9B52"
+			rewards: [{
+				id: "6EAADEDCC13004B0"
+				item: "beachparty:tiki_bar"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7121AFF9C5B7FE5D"
+				item: "beachparty:icecream_coconut"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2D0063702FDE9B52"]
+			description: [""]
+			hide: true
+			id: "19DDD6BE0B345083"
+			rewards: [{
+				count: 4
+				id: "271A8EEDE358920C"
+				item: "herbalbrews:tea_blossom"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29A7F283F3D55A42"
+				item: "beachparty:coconut_cocktail"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: [
+				"\"These are as good as gold!\""
+				""
+				"- Jess the beaver"
+			]
+			hide: true
+			icon: "kubejs:miles_ticket"
+			id: "0D0FDA6FBDCEFF3B"
+			invisible: true
+			rewards: [{
+				id: "276B88F4F93A6339"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AB5D3513507BECE"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Turning a Profit!"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"\"Hi, Jess the Beaver here!  Thank you for signing up for our new Adventurer's Settlement package.\nAn intrepid adventurer like yourself is sure to find all the thrills and delights you seek in this new land.\""
+				""
+				"- Jess the beaver"
+			]
+			icon: "minecraft:peony"
+			id: "7CF35DAE02E4B6C0"
+			rewards: [
+				{
+					id: "0D7A3D2503DBDDEB"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/function fc_collection:init_all_scores"
+					elevate_perms: true
+					id: "47517139A54854E0"
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3A6B90DF5E7B6794"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Welcome to Farming Crossing 4!"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: [
+				"You can sell fishes in the crafting table for miles tickets."
+				""
+				"{image:khazenor:textures/aquaculture/fish_tooltip.png width:180 height:70 align:1}"
+				""
+				"{image:khazenor:textures/aquaculture/fish_sell_recipe.png width:180 height:90 align:1}"
+				""
+				"After you have caught enough unique fishes, you will be able to redeem some Miles Tickets from the Miles Reward Program chapter."
+			]
+			hide: true
+			icon: "aquaculture:atlantic_cod"
+			id: "51AC164BB0124EBA"
+			rewards: [{
+				id: "241BA34ED463BCF0"
+				item: "minecraft:bundle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BF169FE298B5E41"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:fishes"
+					}
+				}
+				title: "Any #minecraft:fishes"
+				type: "item"
+			}]
+			title: "Catching Fishes"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: ["After you have gathered enough unique minerals, you will be able to redeem some Miles Tickets from the Miles Reward Program chapter."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "44DB551B93AA28F9"
+			rewards: [{
+				count: 16
+				id: "485A1BAFDEF6D09B"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CE78A08221C0A01"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:minerals"
+					}
+				}
+				title: "Any #forge:minerals"
+				type: "item"
+			}]
+			title: "Mineral Hunter"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67410832B3588F76"]
+			description: [
+				"You can buy decorations from Jess. Make sure you place her shop block and she is able to link it as her work station."
+				""
+				"After you have bought enough unique decorations, you will be able get some Miles Tickets back from the Miles Reward Program chapter"
+			]
+			hide: true
+			icon: "moa_decor_science:libros"
+			id: "7DA124C26F220448"
+			rewards: [{
+				id: "5CF6A3AA210353A2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 13882323
+						Loot: "lootbags:furniture/loot_furniture"
+						Name: "Furniture Kit"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "095F05B96F9B7B74"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:all_tradeables"
+					}
+				}
+				title: "Any #forge:all_tradeables"
+				type: "item"
+			}]
+			title: "Buying Decorations"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45CAACDFDC15E734"]
+			description: ["You can cut cakes using a bread knife or other knife like items."]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "bakery:bread_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E70AEFEAFB38552"
+			rewards: [{
+				id: "146A115A1BE6C987"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48767E55A31D5218"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "bakery:knives"
+					}
+				}
+				title: "Any #bakery:knives"
+				type: "item"
+			}]
+			title: "Cutting Cakes"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13B67DDBCF1019AB"]
+			description: [
+				"You can attract a customer by putting a customer table near a minecraft villager. "
+				""
+				"Customer villagers will buy meals from you in exchange for miles tickets."
+				""
+				"This villager will buy bakery items from you."
+				""
+				"Villager trades are also dynamic:"
+				""
+				"Villagers change their trades every time they restock/every day. This makes it so that you won't have to get rid of villagers with bad trades after having spent resources on them, and it won't be necessary to breed a large number of them either."
+			]
+			hide: true
+			icon: "kubejs:bakery_customer_table"
+			id: "2D7BAAE0667F927B"
+			rewards: [{
+				id: "127DDE663E9D18DB"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10FB1849AEF33288"
+				item: "kubejs:bakery_customer_table"
+				type: "item"
+			}]
+			title: "Starting a Bakery"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: [
+				"In this modpack you can convert materials to many furniture by using the sawmill or the stonecutter!"
+				""
+				"{image:khazenor:textures/sawmill/sawmill_tutorial.png width:180 height:80 align:1}"
+			]
+			hide: true
+			icon: "handcrafted:crimson_fancy_bed"
+			id: "6FA340C0FFE7FB26"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "570548DCDB27C2E9"
+				table_id: 6769915887841917025L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0087CE95A68F3C1D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "corail_woodcutter:woodcutters"
+					}
+				}
+				title: "Any #corail_woodcutter:woodcutters"
+				type: "item"
+			}]
+			title: "Furniture Cutting"
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: [
+				"To complete the animal observation quests, simply look at them while nearby."
+				""
+				"After you have observed enough unique animals, you will be able to redeem some Miles Tickets from the Miles Reward Program chapter."
+				""
+				"The quests in the Animal Watching Questline are roughly organized by spawning biomes."
+				""
+				"If you like you can use Mob Capturing tool to build your own zoo!"
+			]
+			hide: true
+			icon: "moa_decor_toys:conejodorado"
+			id: "2D62FBEF18E6ABF6"
+			rewards: [
+				{
+					id: "067F85B892561726"
+					item: {
+						Count: 1b
+						id: "mobcapturingtool:mob_capturing_tool"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0EADEB77CA2E8C09"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "alexsmobs:spawn_egg_mimic_octopus"
+				id: "1AB8B8F4CD9EEDA8"
+				observe_type: 6
+				timer: 0L
+				title: "Observe an Animal"
+				to_observe: "kubejs:all_animals"
+				type: "observation"
+			}]
+			title: "Spotting Animals"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			description: [
+				"The market allows you to exchange for many things using miles tickets, including seeds for other foods."
+				""
+				"{image:khazenor:textures/farmingforblockheads/market_crafting.png width:160 height:80 align:1}"
+			]
+			hide: true
+			id: "1018A293CFF89B16"
+			rewards: [
+				{
+					count: 2
+					id: "41A76CB7CD70C8AE"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "586E8331A834FBC1"
+					table_id: 570109225241589702L
+					type: "choice"
+				}
+				{
+					id: "240CFBF79AE30A98"
+					item: "mighty_mail:post_box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0FC159FFDED98A56"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			title: "Exchanging Miles Tickets"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			dependency_requirement: "one_completed"
+			description: [
+				"After this quest you can now craft your own crafting grid and 1k storage disk! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+				""
+				"{image:khazenor:textures/refined_storage/1k_storage_disk_ticket.png width:180 height:90 align:1}"
+				"(You can purchase storage disk tickets from the market)"
+			]
+			hide: true
+			icon: "refinedstorage:crafting_grid"
+			id: "4BE09EB12590E2AD"
+			rewards: [
+				{
+					id: "586678C5CF230475"
+					item: "refinedstorage:creative_controller"
+					type: "item"
+				}
+				{
+					id: "0445E69A53EA52C5"
+					item: "refinedstorage:crafting_grid"
+					type: "item"
+				}
+				{
+					id: "6E53EDD6152A0408"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "46096FDBB78F5479"
+					item: "refinedstorage:1k_storage_disk"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p crafting_grid"
+					elevate_perms: true
+					id: "4FE6F994E766C490"
+					title: "Unlock ability to craft crafting_grid"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p 1k_storage_disk"
+					elevate_perms: true
+					id: "0E551A52A82C001E"
+					title: "Unlock ability to craft 1k_storage_disk"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1EB0C5EA03EF76D5"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Mass Storage"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4BE09EB12590E2AD"]
+			description: ["After this quest you can now craft your own and 4k storage disk!"]
+			hide: true
+			icon: "refinedstorage:4k_storage_disk"
+			id: "5F6FABA9D3E852BF"
+			rewards: [
+				{
+					id: "6A54F89EF35FD805"
+					item: "refinedstorage:4k_storage_disk"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p 4k_storage_disk"
+					elevate_perms: true
+					id: "242A2F4779786B42"
+					title: "Unlock ability to craft 4k_storage_disk"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4F687B63235E35DF"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Medium Storage Expansion"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F6FABA9D3E852BF"]
+			description: ["After this quest you can now craft your own and 16k storage disk!"]
+			hide: true
+			icon: "refinedstorage:16k_storage_disk"
+			id: "5CCBDC6C39923A34"
+			rewards: [
+				{
+					id: "2F1822AACFB6431B"
+					item: "refinedstorage:16k_storage_disk"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p 16k_storage_disk"
+					elevate_perms: true
+					id: "5E1E88C0141A1EF6"
+					title: "Unlock ability to craft 16k_storage_disk"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 288L
+				id: "7734837CCD829ADF"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Large Storage Expansion"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CCBDC6C39923A34"]
+			description: ["After this quest you can now craft your own and 64k storage disk!"]
+			hide: true
+			icon: "refinedstorage:64k_storage_disk"
+			id: "7E001C08E27916CE"
+			rewards: [
+				{
+					id: "32F25B98C4430CC1"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p 64k_storage_disk"
+					elevate_perms: true
+					id: "1D65D046DB0E587F"
+					title: "Unlock ability to craft 64k_storage_disk"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 1134L
+				id: "56237E375039A305"
+				item: "kubejs:miles_ticket"
+				title: "1134 Miles Tickets"
+				type: "item"
+			}]
+			title: "Mega Storage Expansion"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: ["After you have collected enough flora, you will be able to redeem some Miles Tickets from the Miles Reward Program chapter."]
+			hide: true
+			icon: "minecraft:cherry_sapling"
+			id: "0EABDA42EA87C46C"
+			rewards: [
+				{
+					id: "5EFF7EE1E4FA051F"
+					item: "paraglider:paraglider"
+					type: "item"
+				}
+				{
+					id: "46129DD67CD55B1C"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "512D2BAECBD98AAE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:flora_quest_items"
+					}
+				}
+				title: "Any #forge:flora_quest_items"
+				type: "item"
+			}]
+			title: "Collecting Flora"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"0EABDA42EA87C46C"
+				"7DA124C26F220448"
+				"2D62FBEF18E6ABF6"
+				"57BAA8B414FF1F4F"
+				"51AC164BB0124EBA"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Use this repeatable quest to view your progress on each of the collectible categories!"]
+			hide: true
+			id: "11CD059C9CDB657E"
+			rewards: [{
+				command: "/function fc_collection:check_collection_scores"
+				elevate_perms: true
+				icon: "chiselsandbits:magnifying_glass"
+				id: "20088F80BE366761"
+				silent: true
+				title: "Show Collection Progress in Chat"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4F1BA30030E21FC2"
+				title: "View Collection Progress"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			description: [
+				"Slower, but with two seats. Quite easy to maneuver, with acceptable speed thanks to the engine in the back."
+				""
+				"After this quest you can now craft your own Airship!"
+				""
+				"(Press \"R\" to dismount\")"
+			]
+			hide: true
+			icon: "immersive_aircraft:airship"
+			id: "40AC0531EEE3618A"
+			rewards: [
+				{
+					id: "1617385847D9061E"
+					item: "immersive_aircraft:airship"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p airship"
+					elevate_perms: true
+					id: "01B13F4B2D77723B"
+					title: "Unlock ability to craft airship"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "017095815B42163C"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Airship"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			description: [
+				"After this quest you can now craft your own Cargo Airship!"
+				""
+				"(Press \"R\" to dismount\")"
+			]
+			hide: true
+			icon: "immersive_aircraft:cargo_airship"
+			id: "48AB1C6F6D70B600"
+			rewards: [
+				{
+					id: "2327733299DF472E"
+					item: "immersive_aircraft:cargo_airship"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p cargo_airship"
+					elevate_perms: true
+					id: "45648EEB47928B9A"
+					title: "Unlock ability to craft cargo_airship"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "14F0C040866DC2B1"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Cargo Airship"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			description: [
+				"The classic biplane. Fast, one seat, medium difficulty."
+				""
+				"After this quest you can now craft your own Biplane!"
+				""
+				"(Press \"R\" to dismount\")"
+			]
+			hide: true
+			icon: "immersive_aircraft:biplane"
+			id: "35CF91183ECA57C9"
+			rewards: [
+				{
+					id: "638096CA68123222"
+					item: "immersive_aircraft:biplane"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p biplane"
+					elevate_perms: true
+					id: "455FEB7A55B6762E"
+					title: "Unlock ability to craft biplane"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "5C052AC3DCF6C5DB"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Biplane"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			description: [
+				"Human-powered primitive dual seater. Trusty, yet neither the fastest nor the easiest to fly. Needs a good initial push to get the rotor spinning."
+				""
+				"After this quest you can now craft your own Gyrodyne!"
+				""
+				"(Press \"R\" to dismount\")"
+			]
+			hide: true
+			icon: "immersive_aircraft:gyrodyne"
+			id: "1B423787DAE6322C"
+			rewards: [
+				{
+					id: "459FFB927717B06A"
+					item: "immersive_aircraft:gyrodyne"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p gyrodyne"
+					elevate_perms: true
+					id: "5F946DEC0B0057B3"
+					title: "Unlock ability to craft gyrodyne"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "20F6C66419A0E2C4"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Gyrodyne"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			description: [
+				"A masterwork of engineering! Four propellers strapped on a bunch of bamboos. It's quite handy for building."
+				""
+				"After this quest you can now craft your own Quadrocopter!"
+				""
+				"(Press \"R\" to dismount\")"
+			]
+			hide: true
+			icon: "immersive_aircraft:quadrocopter"
+			id: "36B8507E356F8FBF"
+			rewards: [
+				{
+					id: "5477B1B75EEE5987"
+					item: "immersive_aircraft:quadrocopter"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p quadrocopter"
+					elevate_perms: true
+					id: "5295FFF1688AF6A6"
+					title: "Unlock ability to craft quadrocopter"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 500L
+				id: "4AC34646417730E0"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Quadrocopter"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20D49BB4FC20F70F"]
+			description: [
+				"20% chance to not use durability."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:iron_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F23D5FB5D5A4334"
+			rewards: [
+				{
+					id: "75E0B3E93BFBBC8E"
+					item: "aquaculture:iron_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p iron_hook"
+					elevate_perms: true
+					id: "60FD07A7C705BDC1"
+					title: "Unlock ability to craft iron_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "578903703C6BA6AF"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Iron Hook"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1F23D5FB5D5A4334"]
+			description: [
+				"Increased luck."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:gold_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "235E1172DE18A057"
+			rewards: [
+				{
+					id: "4A79363D0B0D3647"
+					item: "aquaculture:gold_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p gold_hook"
+					elevate_perms: true
+					id: "7AB25B2CB502B010"
+					title: "Unlock ability to craft gold_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "6D50EFD08D7926AE"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Gold Hook"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["235E1172DE18A057"]
+			description: [
+				"50% chance to not use durability."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:diamond_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4AD5A21C4316F8B2"
+			rewards: [
+				{
+					id: "77C8A61444A220A8"
+					item: "aquaculture:diamond_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p diamond_hook"
+					elevate_perms: true
+					id: "492C168FD5A3DCA7"
+					title: "Unlock ability to craft diamond_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "31135BF48895E321"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Diamond Hook"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["235E1172DE18A057"]
+			description: [
+				"Casts further."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:light_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3345B78AC8DE80A8"
+			rewards: [
+				{
+					id: "352C0E9467133310"
+					item: "aquaculture:light_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p light_hook"
+					elevate_perms: true
+					id: "7F60270800511193"
+					title: "Unlock ability to craft light_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "71B3B97753351F7E"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Light Hook"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["235E1172DE18A057"]
+			description: [
+				"Casts shorter."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:heavy_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26427284D85AE5CB"
+			rewards: [
+				{
+					id: "554218176CE8E7A7"
+					item: "aquaculture:heavy_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p heavy_hook"
+					elevate_perms: true
+					id: "6481E874EFDB1884"
+					title: "Unlock ability to craft heavy_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "3A1752F065A4AAD7"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Heavy Hook"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4AD5A21C4316F8B2"
+				"26427284D85AE5CB"
+				"3345B78AC8DE80A8"
+				"04556A0CA0B6769C"
+				"6FDAE89B5CCB1889"
+			]
+			description: [
+				"Chance to catch two things. (10%)"
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			icon: {
+				Count: 1b
+				id: "aquaculture:double_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "72374729031FE94C"
+			rewards: [
+				{
+					id: "760FC4469DA2C138"
+					item: "aquaculture:double_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p double_hook"
+					elevate_perms: true
+					id: "306B5ADF734169C1"
+					title: "Unlock ability to craft double_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "15DDC31D27F75FFE"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Double Hook"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["235E1172DE18A057"]
+			description: [
+				"Longer opportunity to reel in a fish."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:redstone_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6FDAE89B5CCB1889"
+			rewards: [
+				{
+					id: "7598AA94B2298CA8"
+					item: "aquaculture:redstone_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p redstone_hook"
+					elevate_perms: true
+					id: "2541BD3BE78E7B28"
+					title: "Unlock ability to craft redstone_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "18896F86C7ED8980"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Redstone Hook"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["235E1172DE18A057"]
+			description: [
+				"Audible alert when a fish is approaching."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:note_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "04556A0CA0B6769C"
+			rewards: [
+				{
+					id: "46D9925CB4B0F2EB"
+					item: "aquaculture:note_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p note_hook"
+					elevate_perms: true
+					id: "414D45D0C2E76D95"
+					title: "Unlock ability to craft note_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "007E7CE7F0377DD1"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Note Hook"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72374729031FE94C"]
+			description: [
+				"50% to not use durability and increased luck."
+				""
+				"After this quest you can now craft this hook! (You might need to rejoin the server/reopen the world for it to show up in JEI)"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "aquaculture:nether_star_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "488477BD901B88C2"
+			rewards: [
+				{
+					id: "2043A3FD9CA4D24E"
+					item: "aquaculture:nether_star_hook"
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamestage add @p nether_star_hook"
+					elevate_perms: true
+					id: "139FF8AD4A98B2D2"
+					title: "Unlock ability to craft nether_star_hook"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "6451CC5514763CAD"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Nether Star Hook"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["51AC164BB0124EBA"]
+			description: [
+				"you can store fishing hooks, rods, and fish bait."
+				""
+				"It also allows you to customize your rods."
+				""
+				"If you have the bell in your off hand while you fish, it will ring as soon as a fish is on the rook!"
+				""
+				"# More bout the tackle box:"
+				""
+				"You can change the hook, string color, bobber color, and put bait on the rod."
+				""
+				"{image:khazenor:textures/aquaculture/tablebox_gui.png width:200 height:200 align:1}"
+				""
+				"A worm farm can be used to obtain worms that can be used as bait for fishing."
+				""
+				"{image:khazenor:textures/aquaculture/worm_farm.png width:200 height:100 align:1}"
+				""
+				"You can use any of the same items that can be used in the composter."
+				""
+				"Just right click on the worm farm with an empty hand or a non-compostable item to get the worms out."
+			]
+			hide: true
+			icon: "aquaculture:tackle_box"
+			id: "20D49BB4FC20F70F"
+			rewards: [
+				{
+					count: 2
+					id: "69BEBA202EC74771"
+					item: "kubejs:miles_ticket"
+					type: "item"
+				}
+				{
+					id: "607D07051948618E"
+					item: "minecraft:bell"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0DCC160967A2D44D"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+				{
+					id: "5A9AB2D637A03F87"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:aqua_rods"
+						}
+					}
+					title: "Any #forge:aqua_rods"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FA340C0FFE7FB26"]
+			description: [
+				"Images can be taken by right-clicking a camera. This brings you to the viewfinder of the camera. Right-clicking again takes an image of the perspective you are currently seeing. Images are saved with the same ratio as your Minecraft window.  Make sure you have paper in your inventory to take photos!"
+				""
+				"You can zoom in and out by scrolling."
+				""
+				"You can either look at the image by right-clicking the image item or by putting it in an image frame."
+				""
+				"== ALBUM =="
+				""
+				"The album can hold up to 54 images. You can add images by sneak + right-clicking the album. You can view the contained images by right-clicking the album. By scrolling up and down or pressing the arrow-up/down key, you can switch the currently viewed image."
+				""
+				"== ITEM FRAME =="
+				""
+				"The image frame allows you to place your image in the world. Just place the image frame item on a wall. Sneak + right-clicking the image frame opens a GUI that allows you to resize the frame. Just clicking the resize buttons enlarges the frame in the given direction. If you sneak and click the button the frame will be downsize the frame in that direction. To display an image in the frame right-click it with the chosen image in hand. To remove it from the frame just right-click the frame again."
+			]
+			icon: {
+				Count: 1b
+				id: "camera:camera"
+				tag: {
+					active: 0b
+				}
+			}
+			id: "1A8DA9B59580ECD8"
+			rewards: [{
+				count: 4
+				id: "19B7AFDB4FA033DC"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7091E2E4EEE082D0"
+					item: {
+						Count: 1b
+						id: "camera:camera"
+						tag: {
+							active: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "410D388D49873E32"
+					item: "camera:image_frame"
+					type: "item"
+				}
+				{
+					id: "30EB326740970D9D"
+					item: {
+						Count: 1b
+						id: "camera:album"
+						tag: {
+							Images: {
+								Items: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Taking Pictures"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FA340C0FFE7FB26"]
+			icon: "bakery:street_sign"
+			id: "7CE7B5249150EEC7"
+			rewards: [{
+				count: 6
+				id: "234BAAF110675FDC"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "53741CA9C2F1CC89"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:couches"
+						}
+					}
+					title: "Any #handcrafted:couches"
+					type: "item"
+				}
+				{
+					id: "060B9C4B18E9ED7E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:tables"
+						}
+					}
+					title: "Any #handcrafted:tables"
+					type: "item"
+				}
+				{
+					id: "77A51B7DA89318C3"
+					item: "handcrafted:stackable_book"
+					type: "item"
+				}
+				{
+					id: "0A681001A13AB5C5"
+					item: "candlelight:typewriter_copper"
+					type: "item"
+				}
+				{
+					id: "4E652B8059FE71DF"
+					item: "bakery:street_sign"
+					type: "item"
+				}
+				{
+					id: "2DEAFD163A798DEC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:crockery_combos"
+						}
+					}
+					title: "Any #handcrafted:crockery_combos"
+					type: "item"
+				}
+				{
+					id: "752C74D22730FA84"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:sheets"
+						}
+					}
+					title: "Any #handcrafted:sheets"
+					type: "item"
+				}
+				{
+					id: "5B817D7F7BE7488D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "handcrafted:cushions"
+						}
+					}
+					title: "Any #handcrafted:cushions"
+					type: "item"
+				}
+			]
+			title: "Interior Decorations"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D0FDA6FBDCEFF3B"]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "lootbags:loot_bag"
+				tag: {
+					Color: 13882323
+					Loot: "lootbags:furniture/loot_furniture"
+					Name: "Furniture Kit"
+					Type: "COMMON"
+				}
+			}
+			id: "67410832B3588F76"
+			rewards: [
+				{
+					id: "6081D0F0CA3E1A09"
+					item: "moa_decor_cookery:cafetera"
+					type: "item"
+				}
+				{
+					id: "1535C05D442C5706"
+					item: "meadow:camera"
+					type: "item"
+				}
+				{
+					id: "260CB41AC308F165"
+					item: "moa_decor_cookery:soportetazas"
+					type: "item"
+				}
+				{
+					id: "5CA747C225784E6C"
+					item: "moa_decor_cookery:donas"
+					type: "item"
+				}
+				{
+					id: "37479326BE2D6F58"
+					item: "moa_decor_cookery:fideos"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "428F1F99EA314F5C"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			title: "Jess's Furniture Bundle"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1A0D7948DC9AD13D"]
+			hide: true
+			id: "5202BD912333D54E"
+			rewards: [
+				{
+					id: "681ECA4B2FB82773"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5CE5DEFA96165A73"
+					item: "farmersdelight:cabbage_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "33D150D74B89A1E2"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5202BD912333D54E"]
+			description: [
+				"The Cooking Pot is a workstation where you can prepare and store a large amount of meals."
+				"Conditions"
+				""
+				"In order to prepare meals, the pot must be heated by the block underneath it. This is indicated by boiling bubbles, steam and a campfire icon in the pot's interface: if flames appear, the pot is heated. There are many suitable heat sources by default, and more can be added through the heat_sources tag:"
+				""
+				"    Fire and Soul Fire"
+				"    Lava"
+				"    Magma Block"
+				"    Campfire and Soul Campfire (lit)"
+				"    Stove (lit)"
+				""
+				"## Usage ##"
+				""
+				"#Cooking"
+				""
+				"The Cooking Pot has an interface similar to a Crafting Table, with a few key differences. It has six (6) slots to add ingredients, and one (1) slot to add containers. Prepared meals will appear into the pot-shaped slot, where they're stored until a suitable container is inserted, taking one serving from the pot. If the prepared meal lacks a container, it will drop straight to output."
+				""
+				"You can see which container the meal is served on by hovering the cursor over it."
+				""
+				"If an ingredient has a container (e.g. Milk Bottle, Tomato Sauce), such container will be ejected from the pot's top side when the recipe is done cooking. Ingredient containers will always be thrown opposite to the wooden spoon, and can be captured by hoppers, baskets and similar."
+				""
+				"Meals, on average, are prepared over the course of 10 seconds, with simpler ones (such as Cooked Rice) preparing in 5 seconds."
+				""
+				"Hoppers and similar blocks from other mods can transfer items through the Cooking Pot:"
+				""
+				"    Top: insert/extract ingredients;"
+				"    Side: insert containers;"
+				"    Bottom: extract outputted meals (after inputting a container)."
+				""
+				"#Food storage"
+				""
+				"Meals that require a container will be held inside the pot, stacking up to 64 servings, regardless of the item's maximum stack limit. The pot can be mined, carried and placed back down, keeping all stored meals inside, similar to a Shulker Box; however, all other slots will drop their contents when the pot is mined. This allows players to carry a large amount of foods that would otherwise occupy too much space in their inventory, such as Mushroom Stew."
+				""
+				"Players can take servings by either adding containers through the Cooking Pot's interface, or right-clicking the pot directly with a valid container."
+			]
+			hide: true
+			id: "277E14B2EF5D2F6A"
+			rewards: [{
+				id: "68CEB88C39D3BD12"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "776D422E890B0829"
+				item: "farmersdelight:cabbage_leaf"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["277E14B2EF5D2F6A"]
+			description: [
+				"This modpack contains the Pam's HarvestCraft 2 suite of mods!"
+				""
+				"To make dishes that uses Pam's crafts, you can buy the crops/seeds in the farming for blockheads market."
+				""
+				"You can put Pam's cookware in the Cooing for blockheads kitchen blocks and they will automatically be considered in the crafting when you use the cooking table block.  Make sure all cooking for blockheads blocks are connected."
+				""
+				"The cow in a jar will provide milk to food crafting recipes."
+			]
+			hide: true
+			id: "29F10804B90D8DA8"
+			rewards: [
+				{
+					count: 12
+					id: "27598A60E56552D1"
+					item: "kubejs:miles_ticket"
+					type: "item"
+				}
+				{
+					id: "0BB304891C28EB00"
+					item: "pamhc2foodcore:bakewareitem"
+					type: "item"
+				}
+				{
+					id: "4BE4988A696A1F9A"
+					item: "pamhc2foodcore:cuttingboarditem"
+					type: "item"
+				}
+				{
+					id: "0FB2AF58630E2AB3"
+					item: "pamhc2foodcore:juiceritem"
+					type: "item"
+				}
+				{
+					id: "7C172CFD8BFD18E0"
+					item: "pamhc2foodcore:grinderitem"
+					type: "item"
+				}
+				{
+					id: "4E38C1FFF7C9CF9E"
+					item: "pamhc2foodcore:mixingbowlitem"
+					type: "item"
+				}
+				{
+					id: "498DB4D598767684"
+					item: "pamhc2foodcore:potitem"
+					type: "item"
+				}
+				{
+					id: "1267B7CBBF060D3D"
+					item: "pamhc2foodcore:rolleritem"
+					type: "item"
+				}
+				{
+					id: "2CAA60A90125D42D"
+					item: "pamhc2foodcore:saucepanitem"
+					type: "item"
+				}
+				{
+					id: "3F69F20935BB694D"
+					item: "pamhc2foodcore:skilletitem"
+					type: "item"
+				}
+				{
+					id: "124BEB5EB3072F16"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "45A2667BC6CA6CD4"
+					item: "cookingforblockheads:cooking_table"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2B05E4408659F5BE"
+					item: "cookingforblockheads:fridge"
+					type: "item"
+				}
+				{
+					id: "74E7216D4200847E"
+					item: "cookingforblockheads:cow_jar"
+					type: "item"
+				}
+				{
+					id: "26019E0043081A36"
+					item: "cookingforblockheads:oven"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0BC5EDAD0672257D"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "700B80701DAF049D"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["29F10804B90D8DA8"]
+			description: [
+				"You can attract a customer by putting a customer table near a minecraft villager. "
+				""
+				"Customer villagers will buy meals from you in exchange for miles tickets."
+				""
+				"This villager will buy farmer's delight items from you."
+				""
+				"Villager trades are also dynamic:"
+				""
+				"Villagers change their trades every time they restock/every day. This makes it so that you won't have to get rid of villagers with bad trades after having spent resources on them, and it won't be necessary to breed a large number of them either."
+			]
+			id: "0207854039AA0D94"
+			rewards: [{
+				id: "5CB0F78784F91357"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36C7C080FAD348EB"
+				item: "kubejs:farmers_delight_customer_table"
+				type: "item"
+			}]
+			title: "Starting a Delightful Restaurant"
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["2D0063702FDE9B52"]
+			description: [
+				"You can attract a customer by putting a customer table near a minecraft villager. "
+				""
+				"Customer villagers will buy meals from you in exchange for miles tickets."
+				""
+				"This villager will buy beach food items from you."
+				""
+				"Villager trades are also dynamic:"
+				""
+				"Villagers change their trades every time they restock/every day. This makes it so that you won't have to get rid of villagers with bad trades after having spent resources on them, and it won't be necessary to breed a large number of them either."
+			]
+			id: "349C13D22ADD0A75"
+			rewards: [{
+				id: "6FF77A18530EC0E7"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70AFCFDA2F1243DC"
+				item: "kubejs:beach_customer_table"
+				type: "item"
+			}]
+			title: "Starting a Beachside Stand"
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48C7E0AF4C9A3C3E"]
+			description: [
+				"You can attract a customer by putting a customer table near a minecraft villager. "
+				""
+				"Customer villagers will buy meals from you in exchange for miles tickets."
+				""
+				"This villager will buy candlelight items from you."
+				""
+				"Villager trades are also dynamic:"
+				""
+				"Villagers change their trades every time they restock/every day. This makes it so that you won't have to get rid of villagers with bad trades after having spent resources on them, and it won't be necessary to breed a large number of them either."
+			]
+			id: "60D5B5C074840CB2"
+			rewards: [{
+				id: "4DDD4A0B62E77CCA"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48FB68F2D2F1A8F2"
+				item: "kubejs:candlelight_customer_table"
+				type: "item"
+			}]
+			title: "Starting a Fancy Restaurant"
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["17FA2E4902522B36"]
+			description: [
+				"You can attract a customer by putting a customer table near a minecraft villager. "
+				""
+				"Customer villagers will buy meals from you in exchange for miles tickets."
+				""
+				"This villager will buy drink items from you."
+				""
+				"Villager trades are also dynamic:"
+				""
+				"Villagers change their trades every time they restock/every day. This makes it so that you won't have to get rid of villagers with bad trades after having spent resources on them, and it won't be necessary to breed a large number of them either."
+			]
+			id: "288973CC8C58E475"
+			rewards: [{
+				id: "361538A5591586B6"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7748DABC2D697E70"
+				item: "kubejs:drink_customer_table"
+				type: "item"
+			}]
+			title: "Starting a Drink Shop"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7DA124C26F220448"]
+			description: [
+				"You can buy hats from Bernina. Make sure you place her shop block and she is able to link it as her work station."
+				""
+				"After you have bought enough unique hats, you will be able get some Miles Tickets back from the Miles Reward Program chapter"
+			]
+			icon: "simplehats:haticon"
+			id: "4D5EC74BAEAA9C3A"
+			rewards: [{
+				id: "6BA53E84B2597C7A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 13882323
+						Loot: "lootbags:furniture/loot_furniture"
+						Name: "Furniture Kit"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "03481ACE11489A7A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:hats"
+					}
+				}
+				title: "Any #forge:hats"
+				type: "item"
+			}]
+			title: "Buying Hats"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D5EC74BAEAA9C3A"]
+			icon: {
+				Count: 1b
+				id: "cosmeticarmoursmod:steampunkers_attire_f_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3EEF31508FB57A05"
+			rewards: [{
+				id: "05614A906753DDD2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 13882323
+						Loot: "lootbags:furniture/loot_furniture"
+						Name: "Furniture Kit"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "17D6A0E69A6BEED1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:clothes"
+					}
+				}
+				title: "Any #forge:clothes"
+				type: "item"
+			}]
+			title: "Buy Clothes"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"4BE09EB12590E2AD"
+				"29F10804B90D8DA8"
+			]
+			description: [
+				"The Kitchen Station needs to be placed as part of the kitchen network and the Kitchen Access Point needs to be placed in the Refined Storage Network."
+				""
+				"The Kitchen Access Point acts as Refined Storage Network Receiver and needs to be attached to a Kitchen Network Card. Then this Kitchen Network Card needs to be placed inside a Kitchen Access Point, which acts as a Refined Storage Network Transmitter."
+			]
+			hide: true
+			icon: "refinedcooking:kitchen_station"
+			id: "7488ED8EE402FD07"
+			rewards: [
+				{
+					id: "3215957756B769EF"
+					item: "refinedcooking:kitchen_station"
+					type: "item"
+				}
+				{
+					id: "546DE89A4FDF0703"
+					item: "refinedcooking:kitchen_access_point"
+					type: "item"
+				}
+				{
+					id: "58C9C80C5D468CEC"
+					item: "refinedcooking:kitchen_network_card"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 300L
+				id: "280665038F55B2D1"
+				item: {
+					BigCount: 300
+					Count: 127b
+					id: "kubejs:miles_ticket"
+				}
+				type: "item"
+			}]
+			title: "Refine Storge and Cooking for Blockheads Integration"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5CC639A6833863A1"]
+			description: [
+				"To get dried corn, wheat, or barley you need to use a silo."
+				""
+				"The silo connects in a 1x1, 2x2, or 3x3 grid and can be extended up to a height of 9 blocks"
+				""
+				"Make sure both of your hands are empty, and right click on the hatch of the silo to open it."
+				""
+				"After that right click the hatch of the silo with corn, wheat, or barley."
+				""
+				"After a while the dried goods will pop out of the sile if the hatch is still open.  Or if you have closed the hatch the good will pop out after you open the hatch again."
+			]
+			hide: true
+			id: "451FA11444C0ADC0"
+			rewards: [{
+				id: "1CA9ADBA95827C38"
+				item: "brewery:wooden_brewingstation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14E997443B438E55"
+				item: "brewery:dried_barley"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["451FA11444C0ADC0"]
+			description: [
+				"To start brewing, place down the brewing station."
+				""
+				"Put the ingredients you looked up in JEI in to the basket by right clicking them in."
+				""
+				"After that put in some water by right clicking with a water bucket."
+				""
+				"Right click the stove with a coal to fire up the brewing machine"
+				""
+				""
+				"=== BREWING PROCESS ==="
+				""
+				"During the brewing process, you need to monitor the brewing station."
+				""
+				"If the temperature gauge is red, you need to cool it down with a bucket of water"
+				""
+				"If the chimney is smoking, you need to add more coal to the stove."
+				""
+				"If the water runs out, you need to add more with a water bucket."
+				""
+				"If the water runs over, you need to remove some water with an empty bucket."
+			]
+			hide: true
+			id: "5864CE9EC333F521"
+			rewards: [{
+				id: "2B8C8A0204B9799B"
+				item: "brewery:copper_brewingstation"
+				type: "item"
+			}]
+			tasks: [{
+				id: "352DC88519512E23"
+				item: "brewery:beer_barley"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5864CE9EC333F521"]
+			description: [
+				"Whiskey drinks are made using the copper brewing station instead of a wooden one."
+				""
+				"========================"
+				""
+				"## STOVE (FARMER'S DELIGHT) ##"
+				""
+				"To add items to its grill, simply right-click the Stove when it has no objects blocking its top face. Stoves detect campfire recipes to cook, meaning they usually also take 30 seconds to fully prepare items. Stoves cannot be automated through item transferring blocks (e.g. Hoppers), but require no fuel to cook items, much like a Campfire."
+				""
+				"Stoves can hold six (6) items on its grill, and will gently pop cooked outputs above its surface, instead of throwing them around."
+				""
+				"If the middle of the Stove's grill is obstructed by any block, such as a closed Trapdoor or a Cooking Pot, all foods on the grill will be flung away, and the Stove will be unable to receive ingredients until the obstruction is removed."
+				""
+				"Stoves can be put out using shovels or buckets of water, and reignited with Flint and Steel."
+				""
+				""
+				"## SKILLET ##"
+				""
+				"The Skillet is a weapon and a portable food-cooking station, which can be operated by hand or as a block."
+				"Overview"
+				""
+				"Skillets can process any campfire cooking recipe, taking roughly 20% of the original time to cook each item (by default, 6 seconds for most recipes)."
+				""
+				"It has two modes of operation:"
+				""
+				"#Block"
+				""
+				"Players can sneak-use the skillet to place it down as a block. If placed above a valid heat source (like stove or a campfire), it will be able to cook food items placed on it. The block form can hold on to a single stack of items, dropping them to the right side (handle pointing to the observer) when finished, requiring an item catcher to collect the items. Hoppers or Baskets are recommended."
+				""
+				"Skillets can be quickly mined by hand. The block will remember all of the item's traits, such as names, enchantments etc."
+				""
+				"#Handheld"
+				""
+				"When a player is wielding a skillet close to any heat_sources, they'll be able to cook any valid items in their opposite hand by holding the use button. This takes just as long as the block-mode operation. Processed items are put in the player's inventory, or dropped if there's not enough space."
+				""
+				"Players are able to operate the Skillet by hand at any location if they're currently on fire."
+				""
+				"#Weapon"
+				""
+				"Skillets can be used as a heavyweight melee weapon. They deal slightly less damage than an Iron Axe and have the same swing speed, but also possess higher knockback on each hit (roughly 2x as much). Their durability is the same as any Iron tool."
+				"Enchantments"
+				""
+				"Skillets can receive the same enchantments that a Sword can, with the exception of Sweeping Edge."
+				""
+				"Fire Aspect will increase the Skillet's cooking speed slightly per level, for both handheld and block modes. As a block, a heated Fire Aspect skillet will emit magic sparks to indicate this."
+			]
+			hide: true
+			id: "1A0D7948DC9AD13D"
+			rewards: [
+				{
+					id: "33FD4829A398375B"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "6EA1A8050532BC5C"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "262DF9E14A3C9551"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3456D52AB8D9EB86"
+				item: "brewery:whiskey_jojannik"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["19DDD6BE0B345083"]
+			description: [
+				"You can get tea blossoms by breaking any flowers with a regular minecraft shear."
+				""
+				"After that, you can plant the blossom on the ground for green tea leaves."
+				""
+				"Putting 9 of the green tea leaves in the crafting table makes a green tea leaves block."
+				""
+				"Placing the green tea leaves down and wait until it converts to a dried green tea leaves block."
+				""
+				"After that you can break it for dried green tea."
+				""
+				"To make black tea, put 9 dried green tea in the crafting table to make a dried green tea block and put it out to dry into dred black tea block."
+			]
+			hide: true
+			icon: "herbalbrews:green_tea_leaf"
+			id: "524F06C306C3B675"
+			rewards: [
+				{
+					id: "164094CE59BD7EB9"
+					item: "herbalbrews:tea_kettle"
+					type: "item"
+				}
+				{
+					id: "2F0F49D740DAB5E1"
+					item: "candlelight:stone_bricks_stove"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "55041E4A962E9748"
+					item: "herbalbrews:green_tea_leaf"
+					type: "item"
+				}
+				{
+					id: "23B08D79F3B54E10"
+					item: "herbalbrews:green_tea_leaf_block"
+					type: "item"
+				}
+				{
+					id: "4A784A621AE5EBD2"
+					item: "herbalbrews:dried_green_tea"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["524F06C306C3B675"]
+			id: "55EF5DFF6C8B14A1"
+			rewards: [
+				{
+					id: "02E20C7027C7E6A4"
+					item: "herbalbrews:cauldron"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5FF15C3C720799DD"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2A2261837785FFB9"
+					item: "herbalbrews:lavender"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "527AE3A0633E3210"
+				item: "herbalbrews:green_tea"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["55EF5DFF6C8B14A1"]
+			description: ["You can get lavender blossom by breaking a lavender plant with a regular minecraft shear."]
+			hide: true
+			id: "5CC639A6833863A1"
+			rewards: [
+				{
+					count: 8
+					id: "69F78E01EDCDFB29"
+					item: "brewery:silo_wood"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "25C155D741B5FB57"
+					item: "brewery:barley_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "657AD422FBBABCCE"
+				item: "herbalbrews:damage_flask"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CF35DAE02E4B6C0"]
+			description: [
+				"After eating your first food you should get a 'Check Food Cravings' item.  This item is part of a modpack specific diet mechanic."
+				""
+				"## Farming Crossing Diet Mechanic:"
+				"- Instead of balancing the nutrition of your diet, now you get rewarded for satisfying your food cravings!"
+				""
+				"- This mechanic only ever provides you with buffs, so you don't have to worry about it unless you want to."
+				""
+				"- Every food will now be classified on 4 axes:"
+				"  - Sweet/Savory"
+				"  - Heavy/Light"
+				"  - Hot/Cold"
+				"  - Dry/Wet"
+				""
+				"- You can look up foods of a category by typing the category name into JEI!"
+				""
+				"- If you noticed foods that are missing classifications or are mis-classified. Feel free to submit a suggestion by clicking on the book icon next to this quest!"
+				""
+				"- If you eat more than 2 of one kind of food, you would start craving food of the opposite kind"
+				"  - e.g. if you eaten two cake slices (sweet), then you would start craving something savory"
+				""
+				"- In winter/summer, your cravings for hot/cold foods would increase every time you eat a food."
+				""
+				"- Cravings can stack! You can eat 2 sweet, heavy, and hot foods to get cravings for savory, light, and cold foods."
+				""
+				"- When you eat a food that you are craving for, it will clear all existing potion effects you currently have and give you a random potion effect for each craving you satisfy.  The potion effect lasts 20 mins.  After that, your cravings will reset."
+				""
+				"- You can check your food stats and cravings using the newly added item \"Check Food Cravings\""
+				"  - You can buy extra copies of this item from the market for 1 ticket"
+				""
+				"- If you have cravings, you will be notified via chat message when your hunger drops below full or when you ate a food and are still not full"
+			]
+			hide: true
+			id: "7A56756EC54FA48D"
+			rewards: [{
+				id: "51718007C9CDAE6D"
+				item: "kubejs:miles_ticket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62C8BBD12ACA9B47"
+				item: "kubejs:check_food_cravings"
+				type: "item"
+			}]
+			title: "Farming Crossing Diet Mechanic!"
+			x: 3.5d
+			y: -2.5d
+		}
+	]
+	title: "Farming Crossing 4"
+}
